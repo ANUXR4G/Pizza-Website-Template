@@ -9,6 +9,9 @@ import { Link } from 'react-router-dom';
 
 const Menupage = () => {
   return (
+    <div className="container mx-auto p-10 py-8">
+    <h2 className="text-center text-red-600">Trending Items</h2>
+    <h3 className="text-center text-black text-2xl font-bold mb-4">Menu</h3>
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 p-10 ">
       {/* Menu Item 1 */}
       <div className="relative bg-cover bg-center rounded-lg overflow-hidden transition-transform transform hover:scale-95 hover:transition-all"
@@ -23,6 +26,7 @@ const Menupage = () => {
           </div>
         </div>
       </div>
+      
 
       {/* Menu Item 2 */}
       <div className="relative bg-cover bg-center rounded-lg overflow-hidden transition-transform transform hover:scale-95 hover:transition-all"
@@ -93,6 +97,7 @@ const Menupage = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
