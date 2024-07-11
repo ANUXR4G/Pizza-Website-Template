@@ -39,10 +39,7 @@ const Navbar = () => {
                     <Link to="/franchise" className="hover:underline hover:text-red-500">FRANCHISE</Link>
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-current transition-transform duration-300 transform scale-x-0 hover:scale-x-100"></span>
                 </li>
-                <li className="relative cursor-pointer transition-colors duration-300 ease-in-out">
-                    <Link to="/contact-us" className="hover:underline hover:text-red-500">CONTACT US</Link>
-                    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-current transition-transform duration-300 transform scale-x-0 hover:scale-x-100"></span>
-                </li>
+                
                 <li className="relative cursor-pointer transition-colors duration-300 ease-in-out text-red-500">
                     <Link to="/order-now" className="hover:underline hover:text-red-500">ORDER NOW</Link>
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-current transition-transform duration-300 transform scale-x-0 hover:scale-x-100"></span>
