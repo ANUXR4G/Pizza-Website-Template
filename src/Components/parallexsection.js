@@ -3,10 +3,15 @@ import background from '../Assets/parallex.png';
 
 const Parallaxsection = () => {
     return (
-        <div className="relative overflow-hidden h-screen">
+        <div className="relative overflow-hidden" style={{ height: '100vh' }}>
             <div 
-                className="absolute inset-0 bg-fixed bg-center bg-cover w-full h-full"
-                style={{ backgroundImage: `url(${background})` }}
+                className="absolute inset-0 w-full h-full"
+                style={{ 
+                    backgroundImage: `url(${background})`,
+                    backgroundAttachment: 'fixed',
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover'
+                }}
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center space-y-4">
                 <h1 className="text-white text-4xl lg:text-6xl font-bold max-w-4xl mx-auto">
