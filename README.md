@@ -1,3 +1,5 @@
+# Live Preview:-https://anuxr4g-pizza-website-template.netlify.app/
+
 # npm install
 
 # install tailwind in project
