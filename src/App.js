@@ -11,6 +11,7 @@ import Pasta from './Components/pasta'
 import Drinks from './Components/drinks'
 import Burger from './Components/burger'
 import Wings from './Components/wings'
+import Franchise from './Components/franchise'
 
 
 
@@ -53,6 +54,10 @@ const route = createBrowserRouter([{
     {
       path:"/wings",
       element:<Wings/>
+    },
+    {
+      path:"/franchise",
+      element:<Franchise/>
     }
     
   ]
