@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../Assets/logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className="bg-black text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50">
             <div className="flex items-center space-x-4">
-                <img src="https://via.placeholder.com/150x50" alt="Logo" className="h-10" />
+                <img src={logo} alt="Logo" className="h-16" />
                 <span className="font-bold text-lg">PIZZA</span>
             </div>
             <div className="md:hidden">
