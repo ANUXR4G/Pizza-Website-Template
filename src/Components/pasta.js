@@ -21,7 +21,7 @@ const trendingItems = [
   { name: 'American Heat Pizza', price: 299, img: img8 },
 ];
 
-const Starter = () => {
+const Pasta = () => {
   useEffect(()=>
     {
   window.scrollTo({
@@ -31,7 +31,7 @@ const Starter = () => {
   return (
     <div className="container mx-auto p-10 py-8">
       <h2 className="text-center text-red-600">Trending Items</h2>
-      <h3 className="text-center text-black text-2xl font-bold mb-4">Starter's</h3>
+      <h3 className="text-center text-black text-2xl font-bold mb-4">Pasta's</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {trendingItems.map((item, index) => (
           <div key={index} className="border rounded-lg p-4 shadow-lg">
@@ -46,4 +46,4 @@ const Starter = () => {
   );
 };
 
-export default Starter;
+export default Pasta;

@@ -6,6 +6,11 @@ import Home from './home'
 import Aboutpage from './Components/aboutpage'
 import Menupage from './Components/menupage'
 import Starter from './Components/starter'
+import Pizza from './Components/pizza'
+import Pasta from './Components/pasta'
+import Drinks from './Components/drinks'
+import Burger from './Components/burger'
+import Wings from './Components/wings'
 
 
 
@@ -28,6 +33,26 @@ const route = createBrowserRouter([{
     {
       path: "/starter",
       element: <Starter/>
+    },
+    {
+      path: "/pizza",
+      element: <Pizza/>
+    },
+    {
+      path: "/pasta",
+      element: <Pasta/>
+    },
+    {
+      path: "/drinks",
+      element:<Drinks/>
+    },
+    {
+      path:"/burger",
+      element:<Burger/>
+    },
+    {
+      path:"/wings",
+      element:<Wings/>
     }
     
   ]

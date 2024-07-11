@@ -31,9 +31,9 @@ const MenuSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center ">
           <div className="text-center text-white">
             <h2 className="text-xl font-bold mb-2">Pizza</h2>
-            <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
+            <Link to="/pizza"> <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
               Order Now
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
@@ -45,9 +45,9 @@ const MenuSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center ">
           <div className="text-center text-white">
             <h2 className="text-xl font-bold mb-2">Pasta</h2>
-            <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
+            <Link to="/pasta"> <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
               Order Now
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
@@ -59,9 +59,9 @@ const MenuSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center ">
           <div className="text-center text-white">
             <h2 className="text-xl font-bold mb-2">Cafe Casa Blanca</h2>
-            <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
+            <Link to="/drinks"><button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
               View Menu
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
@@ -73,9 +73,9 @@ const MenuSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center ">
           <div className="text-center text-white">
             <h2 className="text-xl font-bold mb-2">Tandy's Fried Chicken</h2>
-            <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
+            <Link to="/burger"><button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
               View Menu
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
@@ -87,9 +87,9 @@ const MenuSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center ">
           <div className="text-center text-white">
             <h2 className="text-xl font-bold mb-2">Wings World</h2>
-            <button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
+            <Link to="/wings"><button className="px-4 py-2 bg-[#bd3333] text-white rounded-lg">
               View Menu
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
