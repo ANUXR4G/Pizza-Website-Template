@@ -5,6 +5,7 @@ import Layout from './layout'
 import Home from './home'
 import Aboutpage from './Components/aboutpage'
 import Menupage from './Components/menupage'
+import Starter from './Components/starter'
 
 
 
@@ -24,6 +25,10 @@ const route = createBrowserRouter([{
       path: "/menu-section",
       element: <Menupage/>
     },
+    {
+      path: "/starter",
+      element: <Starter/>
+    }
     
   ]
 }

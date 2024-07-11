@@ -1,5 +1,5 @@
-import React from 'react'
-import background from '../Assets/parallex.png'
+import React from 'react';
+import background from '../Assets/parallex.png';
 
 function Aboutpage() {
     return (
