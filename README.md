@@ -1,4 +1,5 @@
-# Live Preview:-https://anuxr4g-pizza-website-template.netlify.app/
+# Live Preview:-
+https://anuxr4g-pizza-website-template.vercel.app/
 
 # npm install
 
