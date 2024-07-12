@@ -3,18 +3,21 @@ import background from '../Assets/parallex.png';
 
 const Parallaxsection = () => {
     return (
-        <div className="relative overflow-hidden h-screen md:h-auto" style={{ height: '100vh' }}>
+        <div className="relative overflow-hidden" style={{ height: '100vh' }}>
             <div 
-                className="absolute inset-0 w-full h-full bg-fixed bg-center bg-cover md:bg-scroll"
+                className="absolute inset-0 w-full h-full"
                 style={{ 
                     backgroundImage: `url(${background})`,
+                    backgroundAttachment: 'fixed',
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover'
                 }}
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center space-y-4 p-4">
-                <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold max-w-4xl mx-auto">
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center space-y-4">
+                <h1 className="text-white text-4xl lg:text-6xl font-bold max-w-4xl mx-auto">
                     We Offer You an Unforgettable Delivery Experience
                 </h1>
-                <button className="bg-red-600 text-white py-2 px-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition duration-300 ease-in-out">
+                <button className="bg-red-600 text-white py-2 px-4 rounded-lg text-lg font-semibold hover:bg-red-700">
                     Order Online
                 </button>
             </div>
